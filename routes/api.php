@@ -16,7 +16,3 @@ Route::middleware('auth:sanctum')->group(function () {
 });
 
 Route::apiResource('hotels', HotelController::class);
-Route::get('/reset-database-temp-xyz123', function () {
-    Illuminate\Support\Facades\Schema::dropAllTables();
-    return "Base de données nettoyée !";
-});
