@@ -20,3 +20,7 @@ Route::get('/reset-database-temp-xyz123', function () {
     Illuminate\Support\Facades\Schema::dropAllTables();
     return "Base de données nettoyée !";
 });
+Route::get('/reset-database-temp-xyz123', function () {
+    Illuminate\Support\Facades\Schema::dropAllTables();
+    return "Base de données nettoyée !";
+});
